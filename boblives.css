@@ -17,7 +17,7 @@ html, body {width: auto!important;
  width:70%;}
  .nav-link,
  .navbar-brand {
-     color: #990000;
+     color: #fff;
      cursor: pointer;
  }
  .nav-link {
@@ -452,6 +452,14 @@ html, body {width: auto!important;
   /* Apply animation to this element */
   animation: scroll-left 50s linear infinite;
  }
+    /* Move it (define the animation) */
+ @keyframes scroll-left {
+  0%   {
+  transform: translateX(100%); 		
+  }
+  100% {
+  transform: translateX(-100%); 
+  }
  }
 
 
@@ -474,7 +482,7 @@ html, body {width: auto!important;
   color: #FFF;
   border-radius: 50px;
   text-align: center;
- " font-size: 30px;
+  font-size: 30px;
   box-shadow: 3px 4px 3px #999;
   right: 10px;
   z-index: 100;
