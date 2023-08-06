@@ -41,40 +41,29 @@ html, body {width: auto!important;
     background:white;
 }
 
-.logo{
-padding:0;
-margin:0;
-width:50%;
-height:50%;}
-.nav-link,
-.navbar-brand {
-    color: black;
-    cursor: pointer;
-}
-.nav-item{
-       text-align:center;
-       font-weight:4em;
-       height:2em;}
-.navlink{
-      color:#c80f2e;
-      text-align:center;
-      }
-.navlink {
-    margin-right: 1em !important;
-}
-.navlink:hover {
-    color: #000;
-}
-.navbar-collapse {
-    color:black;
-    justify-content: flex-end;
-}
- @media (max-width: 575px) {
-    button.navbar-toggler {
-        position: absolute !important;
-        right: 10px !important;
-        top: 14px !important;
-    }
+ .logo{
+ padding:0;
+ margin:0;
+ width:70%;}
+ .nav-link,
+ .navbar-brand {
+     color: #fff;
+     cursor: pointer;
+ }
+ .nav-link {
+     margin-right: 1em !important;
+ }
+ .nav-link:hover {
+     color: #000;
+ }
+ .navbar-collapse {
+     justify-content: flex-end;
+ }
+  @media (max-width: 575px) {
+     button.navbar-toggler {
+         position: absolute !important;
+         right: 10px !important;
+         top: 14px !important;
      }
    .problem{
    min-width:100%;
@@ -140,7 +129,9 @@ height:50%;}
  display:flex;
  flex-wrap:nowrap;
  justify-content:space-between;
- }}
+ }
+  
+  }
  @import 'https://fonts.googleapis.com/css?family=Roboto';
      html, body {
      }
