@@ -9,7 +9,7 @@ html, body {width: auto!important;
     background:#990000;
 }
 
-.scroll-left {
+.h {
   height: 40px;	
   overflow: hidden;
   position: relative;
@@ -17,7 +17,7 @@ html, body {width: auto!important;
   color: rgb(255, 255, 255);
   border: 1px;
  }
- .scroll-left p {
+ .h p {
   position: absolute;
   width: 100%;
   height: 100%;
