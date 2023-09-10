@@ -15,7 +15,7 @@ html, body {width: auto!important;
   position: relative;
   background: rgb(253, 54, 5);
   color: rgb(255, 255, 255);
-  border: 1px solid orange;
+  border: 1px;
  }
  .scroll-left p {
   position: absolute;
